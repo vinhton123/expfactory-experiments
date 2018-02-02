@@ -1,6 +1,6 @@
 [
     {
-        "name": "Episodic Tagging Task",
+        "name": "Discount Tagging Task",
         "template":"jspsych",
         "run": [
                  "static/js/math.min.js",
@@ -17,7 +17,7 @@
                  "static/css/default_style.css",
                  "style.css"
                ],
-        "exp_id": "episodic_tagging",
+        "exp_id": "discount_tagging",
         "cognitive_atlas_task_id": "trm_566748c929afc",
         "contributors": [
                          "Vinh Ton",
@@ -34,7 +34,7 @@
         "deployment_variables":{"jspsych_init":
                                         {"fullscreen": true,
                                         "display_element": "getDisplayElement",
-                                        "on_trial_finish": "addID('episodic_tagging')"}
+                                        "on_trial_finish": "addID('discount_tagging')"}
                        }
    }
 ]
